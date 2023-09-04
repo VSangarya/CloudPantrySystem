@@ -1,0 +1,5 @@
+identity:
+    appId: PC3
+auth:
+    key: <key>
+    token: <token>

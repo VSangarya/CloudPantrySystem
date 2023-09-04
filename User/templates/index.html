@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Query Selection</title>
+  </head>
+  <body>
+    <h1>Select a query:</h1>
+    <form method="post" action="/">
+      <label><input type="radio" name="query" value="query1" required>Specific recipe query</label><br>
+      <label><input type="radio" name="query" value="query2" required>Specific ingredient query</label><br>
+      <label><input type="radio" name="query" value="query3" required>All ingredients query</label><br>
+      <label><input type="radio" name="query" value="query4" required>Historical data</label><br>
+      <br>
+      <label>Select recipe:</label>
+      <select name="ddb1" required>
+        <option value="Coffee">Coffee</option>
+        <option value="Latte">Latte</option>
+        <option value="Tea">Tea</option>
+      </select><br>
+      <label>Quantity/servings you want to prepare:</label>
+      <input type="number" name="ib1"><br>
+      <label>Select ingredient:</label>
+      <select name="ddb2" required>
+        <option value="Milk">Milk</option>
+        <option value="Sugar">Sugar</option>
+        <option value="Coffee powder">Coffee powder</option>
+        <option value="Tea powder">Tea powder</option>
+      </select><br>
+      <label>Amount of past historical data as an integer:</label>
+      <input type="number" name="ib2"><br>
+      <button type="submit">Submit</button>
+      <br><br><br><br>
+      <label><input type="radio" name="query" value="query5" required>Pi status</label><br>
+      <label><input type="radio" name="query" value="query6" required>Cloud request check</label><br>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

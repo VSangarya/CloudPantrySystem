@@ -1,0 +1,6 @@
+identity:
+    appId: blank2
+auth:
+    key: <key> 
+    token: <token>
+

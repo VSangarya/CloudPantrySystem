@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe servings</title>
+  </head>
+  <body>
+    <p>{{ ddb1 }} recipe requested</p>
+    <p>{{ ib1 }} servings request</p>
+    <p>Requested servings possible : {{ rs }} </p>
+    <p>Maximum servings possible : {{ ps }} </p>
+    </br></br></br>
+    {% for ingredient, str in msi.items() %}
+		<p>{{ str }}</p>
+	{% endfor %}
+
+    <br>
+    <a href="/">Back</a>
+  </body>
+</html>

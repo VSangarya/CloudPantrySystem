@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All ingredients</title>
+</head>
+<body>
+	<h2>All ingredients</h2>
+	{% for ingredient, quantity in quantities.items() %}
+		<p>{{ ingredient }}: {{ quantity }}g</p>
+	{% endfor %}
+	<form action="/" method="get">
+		<input type="submit" value="Back">
+	</form>
+</body>
+
+</html>
