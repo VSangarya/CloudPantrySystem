@@ -81,7 +81,7 @@ Restart the apache webserver using the command:
 sudo service apache2 restart
 ```
 
-The Flask application will now be up and running on the GCloud virtual machine, to request any endpoint of the application, use the external IP of the GCloud instance followed by the endpoint resource.  <br/><br/><br/><br/>
+The Flask application will now be up and running on the GCloud virtual machine, to request any endpoint of the application, use the external IP of the GCloud instance followed by the endpoint resource.  <br/><br/><br/>
   
 
 2. **Starting MQTT subscriber on GCloud:-**
@@ -101,7 +101,7 @@ cd /heartbeat
 python3 heartbeat_receive.py
 ```
 
-This will ensure that the MQTT subscriber on GCloud has subscribed to the required topics and is listening for any data.  <br/><br/><br/><br/> 
+This will ensure that the MQTT subscriber on GCloud has subscribed to the required topics and is listening for any data.  <br/><br/><br/>
   
 
 3. **Starting the User Interface system:-**
